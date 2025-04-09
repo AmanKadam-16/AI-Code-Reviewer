@@ -15,23 +15,25 @@ A powerful tool that leverages Google's Gemini AI to provide expert code reviews
 
 1. Clone this repository
 2. Install dependencies:
+   
    ```bash
    npm install
    ```
-3. Get a [Google Gemini API key](https://ai.google.dev/)
-4. (Optional) For private GitHub repos, generate a [GitHub personal access token](https://github.com/settings/tokens)
+4. Get a [Google Gemini API key](https://ai.google.dev/)
+5. (Optional) For private GitHub repos, generate a [GitHub personal access token](https://github.com/settings/tokens)
 
 ## Usage
 
 1. Start the development server:
+   
    ```bash
    npm run dev
    ```
-2. Open the app in your browser
-3. Enter your Gemini API key
-4. (Optional) Add GitHub token for private repos
-5. Paste your code or GitHub URL
-6. Click "Review Code" to get expert feedback
+3. Open the app in your browser
+4. Enter your Gemini API key
+5. (Optional) Add GitHub token for private repos
+6. Paste your code or GitHub URL
+7. Click "Review Code" to get expert feedback
 
 ## Development
 
