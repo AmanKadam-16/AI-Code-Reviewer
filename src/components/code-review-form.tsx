@@ -60,9 +60,18 @@ export function CodeReviewForm() {
         <CardContent>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="space-y-2">
-              <label htmlFor="apiKey" className="text-sm font-medium">
-                Gemini API Key
-              </label>
+              <div className="flex items-center gap-2">
+                <label htmlFor="apiKey" className="text-sm font-medium">
+                  Gemini API Key
+                </label>
+                <a href="https://ai.google.dev/tutorials/setup" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground" title="How to get API key">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                    <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                  </svg>
+                </a>
+              </div>
               <Input
                 id="apiKey"
                 type="password"
@@ -76,9 +85,18 @@ export function CodeReviewForm() {
               </p>
               
               <div className="space-y-2 mt-4">
-                <label htmlFor="githubToken" className="text-sm font-medium">
-                  GitHub Token (optional)
-                </label>
+                <div className="flex items-center gap-2">
+                  <label htmlFor="githubToken" className="text-sm font-medium">
+                    GitHub Token (optional)
+                  </label>
+                  <a href="https://github.com/settings/tokens" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground" title="How to create GitHub token">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                      <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                    </svg>
+                  </a>
+                </div>
                 <Input
                   id="githubToken"
                   type="password"
