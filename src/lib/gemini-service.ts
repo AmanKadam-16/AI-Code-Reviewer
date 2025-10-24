@@ -13,7 +13,7 @@ export async function reviewCode(code: string, apiKey: string): Promise<GeminiRe
   try {
     const genAI = new GoogleGenerativeAI(apiKey);
     const model = genAI.getGenerativeModel({
-      model: "gemini-1.5-pro",
+      model: "gemini-2.5-pro",
       systemInstruction: 
         "You are an expert code reviewer with extensive experience across multiple programming languages and paradigms. " +
         "Analyze the provided code and provide thorough yet practical feedback in these categories:\n\n" +
