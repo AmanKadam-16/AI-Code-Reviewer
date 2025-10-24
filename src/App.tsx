@@ -18,7 +18,7 @@ function App() {
       </main>
       <footer className="mt-8 text-center text-sm text-muted-foreground">
         <div className="flex items-center justify-center gap-2">
-          <p>© {new Date().getFullYear()} Code Review Tool - Powered by Google Gemini 1.5 Pro</p>
+          <p>© {new Date().getFullYear()} Code Review Tool - Powered by Google Gemini 2.5 Pro</p>
         </div>
         <div className="mt-2 flex justify-center">
           <a href="https://github.com/AmanKadam-16/AI-Code-Reviewer" target="_blank" rel="noopener noreferrer">
